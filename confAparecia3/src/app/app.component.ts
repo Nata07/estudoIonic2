@@ -14,7 +14,7 @@ export class MyApp {
   rootPage: any = TabsPage;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, public config: Config) {
-
+    // Altera os icones da tabs para o topo
     this.config.set('tabsPlacement', 'top');
     
     platform.ready().then(() => {
