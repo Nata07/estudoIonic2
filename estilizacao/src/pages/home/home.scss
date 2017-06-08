@@ -1,0 +1,11 @@
+page-home {
+    // variavel 
+    $background: red;
+
+    .box{
+        width: 150px;
+        height: 150px;
+                            //é possivel usar a variavel para declarar o background
+        background-color: $background;
+    }
+}
