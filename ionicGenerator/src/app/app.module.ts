@@ -1,3 +1,5 @@
+import { GithubService } from './../providers/github-service';
+import { BackgroundGreenDirective } from './../components/background-green/background-green.directive';
 import { TesteComponent } from './../components/teste/teste.component';
 import { DynamicPage } from './../pages/dynamic/dynamic';
 import { BrowserModule } from '@angular/platform-browser';
@@ -14,7 +16,8 @@ import { HomePage } from '../pages/home/home';
     MyApp,
     HomePage,
     DynamicPage,
-    TesteComponent
+    TesteComponent,
+    BackgroundGreenDirective
   ],
   imports: [
     BrowserModule,
@@ -30,6 +33,7 @@ import { HomePage } from '../pages/home/home';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
+    GithubService
   ]
 })
 export class AppModule {}
