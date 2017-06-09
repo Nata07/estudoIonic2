@@ -1,3 +1,4 @@
+import { TesteComponent } from './../components/teste/teste.component';
 import { DynamicPage } from './../pages/dynamic/dynamic';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
@@ -12,7 +13,8 @@ import { HomePage } from '../pages/home/home';
   declarations: [
     MyApp,
     HomePage,
-    DynamicPage
+    DynamicPage,
+    TesteComponent
   ],
   imports: [
     BrowserModule,
