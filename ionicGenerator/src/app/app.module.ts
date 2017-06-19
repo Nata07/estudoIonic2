@@ -33,7 +33,6 @@ import { HomePage } from '../pages/home/home';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
-    GithubService
   ]
 })
 export class AppModule {}
